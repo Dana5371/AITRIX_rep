@@ -17,8 +17,8 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - POSTGRES_NAME=postgres
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_NAME=service_ad
+      - POSTGRES_USER=danaker
+      - POSTGRES_PASSWORD=1
     depends_on:
       - db
